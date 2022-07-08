@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bg-white {
+    background-color: black;
+}
+
+.bg-magenta {
+    background-color: greenyellow;
+    color: black;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    height: 40vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.hero-text {
+    font-size: 35px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.nav-bar-text {
+    font-size: 25px;
+    margin: 0px 20px;
+}
+
+
+.main-content {
+    /* display: flex;
+    flex-direction: row; */
+    height: 60vh;
+    padding: 30px;
+}
+
+tp {
+    background: #B8C1C8;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    
+}
+
+
+.title-section {
+    width: 50%;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.blog-section {
+    background-color: antiquewhite;
+    /* display: flex;
+    flex-direction: column; */
+    height: 32rem;
+    width: 32rem;
+    overflow: auto;
+    cursor: grab;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.blog-img {
+    background-color: lightgray;
+    width: 35%;
+
+}
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 0 15px;
+    justify-content: space-around;
+}
+
+.blog-headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-body {
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.text-gray-600 {
+    opacity: 1;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 30vh;
+
+}
