@@ -27,6 +27,19 @@
     background-color: black;
 }
 
+.hero-img{
+    position: absolute;
+    animation: fading 6.2s infinite alternate-reverse;
+
+}
+
+.hero-img img {
+
+    width: 50px;
+    height: 50px;
+
+}
+
 .hero-text {
     font-size: 35px;
     padding: 5px;
@@ -74,9 +87,61 @@ tp {
 }
 
 .blog-section {
-    background-color: antiquewhite;
+    overflow: auto;
     /* display: flex;
     flex-direction: column; */
+    width: 90%;
+
+    height: 500px;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+}
+
+.blog-img {
+    background-color: lightgray;
+    width: 35%;
+
+}
+.blog-content {
+    display: block;
+    width: 65%;
+    padding: 0 20px;
+
+    justify-content: space-around;
+}
+
+.blog-headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-body {
+    font-size: 1rem;
+    font-weight: 300;
+    overflow: hidden;
+    height: 100px;
+
+}
+
+.text-gray-600 {
+    opacity: 1;
+    color: gray;
+    font-size: 0.8rem;
+}
+/* 
+
+.blog-section {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
     height: 32rem;
     width: 32rem;
     overflow: auto;
@@ -120,7 +185,7 @@ tp {
     opacity: 1;
     color: gray;
     font-size: 0.8rem;
-}
+} */
 
 .contact-section {
     display: flex;

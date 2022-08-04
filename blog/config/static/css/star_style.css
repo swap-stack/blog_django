@@ -2,10 +2,9 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    -webkit-animation: fading 5s infinite;
+    animation: fading 5s infinite;
     box-shadow: 0 0 30px white;
 }
-
 .moon {
     top: 20px;
     left: 600px;
@@ -14,6 +13,8 @@
     box-shadow: 0 0 50px white;
     animation: fadingmoon 9s infinite alternate-reverse;
 }
+
+
 
 .size-six {
     height: 6px;
@@ -31,7 +32,7 @@
 .circle#one {
     top: 20px;
     left: 600px;
-    animation: fading 4.5s infinite alternate-reverse;
+    animation-duration: fading 4.5s infinite alternate-reverse;
 }
 
 .circle#two {
@@ -102,3 +103,4 @@
     }
 
 }
+
